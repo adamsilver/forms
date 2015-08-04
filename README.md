@@ -52,4 +52,4 @@
 
 * Contextual submit click
 
-* Don't make something look like a form element when it is not (affordance). Like Emir using radios for delivery collection switcher when they are not!!! Don't break the rules, it's not cool.
+* Don't make something look like a form element when it is not (affordance). Like Biscevic using radios for delivery collection switcher when they are not!!! Don't break the rules, it's not cool.

@@ -52,6 +52,10 @@ Note: fieldset and legend used for accessibility but might be useful visually. r
 		</fieldset>
 	</div>
 
+Note:
+
+1. The `id` attribute value, of the first control in the group, matches the `name` attribute value. This is essential for the client-side validation as we will see later.
+
 ## Select options
 
 HTML:
@@ -75,6 +79,8 @@ HTML:
 	</div>
 
 ## Action buttons
+
+This are allows you to put primary and secondary call to actions on the page, typically at the bottom of the form.
 
 	<div class="actions">
 		<input type="submit" value="Checkout" name="checkout">

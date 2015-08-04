@@ -1,41 +1,27 @@
 # Controls
 
+## Overview
+
+This chapter documents the different types of form controls that you will typically use in any web application. There are subtle differences that are required in order to build these controls in a way that adheres to visual design, accessibility and usability requirements.
+
 ## Simple form control
 
-This can be used with the following
+This is the most common control.
 
-* Inputs of type `text`, `password`, `email`, `number`
-* Free flow text control i.e. `textarea`
-* Drop down i.e. `select`
-
-As an example:
+HTML:
 
 	<div class="standardControl">
 		<label for="username">Field label</label>
 		<input id="username" name="username">
 	</div>
 
-## Grouping select options
+Note:
 
-By example:
+1. This can be used with input types: `text`, `password`, `email`, `number`
 
-	<div class="standardControl">
-		<label for="cuisine">Cuisine</label>
-		<select id="cuisine" name="cuisine">
-		    <option value="">Show everything</option>
-		    <optgroup label="Most popular cuisines">
-	            <option value="indian">Indian</option>
-	            <option value="pizza">Pizza</option>
-	            <option value="chinese">Chinese</option>
-	            <option value="kebabs">Kebabs</option>
-		    </optgroup>
-		    <optgroup label="Other cuisines">
-	            <option value="bangladeshi">Bangladeshi</option>
-	            <option value="thai">Thai</option>
-	            <option value="english">English</option>
-		    </optgroup>
-		</select>
-	</div>
+2. `textarea` controls
+
+3. `select` menu control
 
 ## Single checkbox
 
@@ -46,7 +32,7 @@ e.g. terms and conditions or save as billing
 		<label for="terms">Terms</label>
 	</div>
 
-## Group of checkboxess
+## Group
 
 Useful for a group of checkboxes or radios.
 
@@ -66,9 +52,30 @@ Note: fieldset and legend used for accessibility but might be useful visually. r
 		</fieldset>
 	</div>
 
+## Select options
+
+HTML:
+
+	<div class="standardControl">
+		<label for="cuisine">Cuisine</label>
+		<select id="cuisine" name="cuisine">
+		    <option value="">Show everything</option>
+		    <optgroup label="Most popular cuisines">
+	            <option value="indian">Indian</option>
+	            <option value="pizza">Pizza</option>
+	            <option value="chinese">Chinese</option>
+	            <option value="kebabs">Kebabs</option>
+		    </optgroup>
+		    <optgroup label="Other cuisines">
+	            <option value="bangladeshi">Bangladeshi</option>
+	            <option value="thai">Thai</option>
+	            <option value="english">English</option>
+		    </optgroup>
+		</select>
+	</div>
+
 ## Action buttons
 
 	<div class="actions">
 		<input type="submit" value="Checkout" name="checkout">
 	</div>
-

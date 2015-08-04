@@ -10,7 +10,7 @@ This book is for both for designers and developers, both back-end and front-end 
 
 ## Overview
 
-**Chapter 1: The basics** provides information about the various components that make up forms beyond just *controls*. That is labels and legends. This also covers of nomenclature.
+**Chapter 1: The basics** provides information about the various components that make up a form including controls, labels, fieldsets and legends.
 
 **Chapter 2: Controls** introduces the various controls at your disposal how to mark-up those controls ready for styling and behaviour. Basic mark-up, extra mark-up.
 

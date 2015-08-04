@@ -25,3 +25,5 @@
 * Multi page forms, wizards, dependent form controls
 
 * Success messages? Post/Redirect/Get
+
+* Buttons, input type image

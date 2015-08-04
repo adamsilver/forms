@@ -10,48 +10,22 @@ This book is for both for designers and developers, both back-end and front-end 
 
 ## Overview
 
-**Chapter 1: The basics** provides some basic information about the various components that make up forms beyond just *controls* i.e. lables vs legends etc. This also covers of nomenclature. Placeholders.
+**Chapter 1: The basics** provides information about the various components that make up forms beyond just *controls*. That is labels and legends. This also covers of nomenclature.
 
-**Chapter 2: Controls** introduces the various controls you may need and how to mark-up those controls ready for styling and client-side enhancements. Basic mark-up, extra mark-up.
+**Chapter 2: Controls** introduces the various controls at your disposal how to mark-up those controls ready for styling and behaviour. Basic mark-up, extra mark-up.
 
-**Chapter 3: Server-side validation** explains the various pieces that you will need to provide *all* your users with assistance when things go wrong with input. From validation summaries to inline messaging.
+**Chapter 3: Enhancements** provides information about how to enhance forms with little effort with HTML5 features such as the placeholder and how not to abuse or over rely on them.
 
-**Chapter 4: Client-side validation** explains how to enhance form validation so that form validation is quicker and better for those users with the ability to provide form validation
+**Chapter 4: Server-side validation** explains the various pieces that you will need to provide *all* your users with assistance when things go wrong with input. From validation summaries to inline messaging.
 
-**Chapter 5: Miscelanious idioms** explains all the things you should avoid and why as well as any other points of note.
+**Chapter 5: Client-side validation** explains how to enhance form validation so that form validation is quicker and better for those users with the ability to provide form validation on the client.
+
+**Chapter 6: Miscelanious idioms** explains all the things you should avoid and why as well as any other points of note.
 
 ## Help and support
 
 If you would like to help, please contribute, and add an issue on Github.
 
-## Mess
+## Other
 
 * Passive interaction (reading), active interaction (filling in information)
-
-* Don't make buttons look like links, cursor: pointer
-
-* Multiple submit buttons: Don't but what if I have to?
-
-* Misusing forms using select for navigation
-
-* Trying to tame their styles
-
-* Multiple select forms list of products (checkboxes for multi-select, buttons for individual, big buttons for multi add etc)
-
-* Where .NET has got it wrong for checkboxes on vs true
-
-* Form Validation
-
-* Native & mobile form behaviour
-
-* Multi page forms, wizards, dependent form controls
-
-* Enhancement, scripting and validation
-
-* Don't use click, instead of 'submit' event for primary action
-
-* More than one action...Split out into separate wizard like form, decide primary action.
-
-* Contextual submit click
-
-* Don't make something look like a form element when it is not (affordance). Like Biscevic using radios for delivery

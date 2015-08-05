@@ -2,28 +2,28 @@
 
 ## Overview:
 
-Most web applications require form validation on both the server and the client. This chapter discuses the recommended functionality adhering to accessibility and usability standards.
+99 percent of the time you will want the design of the form to be as follows:
 
-## Behaviour
+1. Standard fields to have labels above controls.
 
-Form validation should only be triggered when the form is submitted. Obviously this note does not pertain to server-side validation as it can *only* be triggered in this way	.
+2. Groups of checkboxes or radios to have a fieldset and legend (sometimes hidden) with labels to the *right* of each control.
 
-It is advised that you don't attempt to validate controls when the user is typing or moving between controls i.e. `blur`.
+3. A primary button at the bottom of the form.
 
-This is because this causes a poor experience in terms of over-the-top hand holding, early interuption and visual glitches such as jumping when information is injected into the page via Javascript.
+4. Linear, single column so that the eye goes down
 
-When a form is submitted with errors, the following points should be noted:
+5. If you must have optional fields, then mark them with an asterisk and denote it at the top of the form.
 
-1. A group of error messages is displayed at the top of the form/page. The focus is put here.
+6. Don't try and customise the visual design of form controls, let other parts of the site cater to branding requirements. You're asking for trouble if you try and tame the look and feel cross-browser.
 
-2. Inline error messages are placed underneath the erroneous control.
+7. Form submit buttons should not have a pointer cursor like links. They are not links. The hand does *not* denote "clickable" contrary to popular misguided belief.
 
-3. Typically visual treatment will be red by convention.
+* Design - field length
 
-4. Clicking on one of those errors in the error summary will put focus to the particular erroneous control.
+* Design - labels top
 
-4. Inline errors also display beneath the erroneous control for visual context as the user fixes the errors.
+* Design - avoid multi select menu
 
-## Accessibility note
+* Design - radios vs select
 
-For screen readers error indicators are injected. For group controls (i.e. radios) we add the indicator to the legend, otherwise we add the indicator to the associated label.
+* Design - optional fields - scrap em, or asterix or?

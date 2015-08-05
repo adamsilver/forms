@@ -9,19 +9,19 @@ Forms are made up of several component elements. The first element being the `fo
 
 ### The `method` attribute
 
-In the main the value will be either *post* or *get*.
+In the main the value will be either *post* or *get*. Technically, *put* and *delete* requests should also be used when appropriate, but there is a lack of support for this.
 
-You should use *post* when you're modifying or creating content. Examples include:
+With that in-mind, you should use *post* when modifying (or creating) e.g.
 
-1. Signing up for a new account (creating new content)
+1. Registering for a new account.
 
-2. Editing your name in your profile (editing an existing piece of content)
+2. Updating your email address.
 
-Otherwise you should use *get* whereby you want a slightly different view of an ever present resource. Examples include:
+Otherwise, you should use *get* whereby no modification happens e.g.
 
-1. You want to sort a particular set of products by rating.
+1. Sorting a particular set of products by rating.
 
-2. You want to filter results by keyword.
+2. Searching for a product with a particular keyword.
 
 ## Controls
 

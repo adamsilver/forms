@@ -14,7 +14,7 @@ This book is for both for designers and developers, both back-end and front-end 
 
 **Chapter 2: Controls** introduces the various controls at your disposal how to mark-up those controls ready for styling and behaviour. Basic mark-up, extra mark-up.
 
-**Chapter 3: Enhancements** provides information about how to enhance forms with little effort with HTML5 features such as the placeholder and how not to abuse or over rely on them.
+**Chapter 3: Control Extras** provides information about how to enhance forms with just a little more effort.
 
 **Chapter 4: Server-side validation** explains the various pieces that you will need to provide *all* your users with assistance when things go wrong with input. From validation summaries to inline messaging.
 

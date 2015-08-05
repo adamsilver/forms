@@ -1,6 +1,7 @@
 00-Introduction.md
 01-The-Basics.md
 02-Controls.md
-03-Validation.md
-04-Implementation-By-Example.md
-05-Miscellaneous.md
+03-Control-Extras.md
+04-Validation.md
+05-Implementation-By-Example.md
+06-Miscellaneous.md

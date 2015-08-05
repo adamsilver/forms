@@ -2,7 +2,7 @@
 
 ## Overview
 
-This chapter documents the different types of form controls that you will typically use in any web application. There are subtle differences that are required in order to build these controls in a way that adheres to visual design, accessibility and usability requirements.
+This chapter documents the different types of form controls that you will typically use in any web application. There are subtle differences that are required in order to build these controls in a way that adheres to the visual design, accessibility rules and usability requirements.
 
 ## Simple form control
 
@@ -55,28 +55,6 @@ Note: fieldset and legend used for accessibility but might be useful visually. r
 Note:
 
 1. The `id` attribute value, of the first control in the group, matches the `name` attribute value. This is essential for the client-side validation as we will see later.
-
-## Select options
-
-HTML:
-
-	<div class="standardControl">
-		<label for="cuisine">Cuisine</label>
-		<select id="cuisine" name="cuisine">
-		    <option value="">Show everything</option>
-		    <optgroup label="Most popular cuisines">
-	            <option value="indian">Indian</option>
-	            <option value="pizza">Pizza</option>
-	            <option value="chinese">Chinese</option>
-	            <option value="kebabs">Kebabs</option>
-		    </optgroup>
-		    <optgroup label="Other cuisines">
-	            <option value="bangladeshi">Bangladeshi</option>
-	            <option value="thai">Thai</option>
-	            <option value="english">English</option>
-		    </optgroup>
-		</select>
-	</div>
 
 ## Action buttons
 

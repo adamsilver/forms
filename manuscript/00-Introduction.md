@@ -1,6 +1,6 @@
 # Introduction
 
-Interaction on the web comes in two forms: passive interaction (reading), active interaction (filling in information). Forms is the latter.
+Interaction on the web comes in two forms: passive interaction i.e. reading, active interaction (filling in information). Forms allow for the latter and are obviously much more involved.
 
 People use forms to search for content, to log-in, and to purchase products etc. Due to this, forms are probably one of the most, if not *the* most important interactions on the web.
 

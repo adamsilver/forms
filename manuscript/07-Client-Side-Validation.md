@@ -1,7 +1,15 @@
-# Implementation by example
+# Client-side validation
+
+## Overview
+
+Client-side validation is almost identical to the server-side except for the following:
+
+1. When there are errors, the user is scrolled up to the error summary.
+3. Clicking on an error message in the summary, will focus the control - some browers will do this without Javascript.
+4. Not all validation messages will/can be handled on the client.
 
 	// define new validator
-	var validator = new project.FormValidatorView(document.forms.formName);
+	var validator = new project.FormValidator(document.forms.formName);
 
 	// add a validator that checks the username is not empty
 	validator.addValidator("username", [{

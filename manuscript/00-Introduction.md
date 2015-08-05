@@ -14,15 +14,19 @@ This book is for both for designers and developers, both back-end and front-end 
 
 **Chapter 1: The basics** provides information about the various components that make up a form including controls, labels, fieldsets and legends.
 
-**Chapter 2: Controls** introduces the various controls at your disposal how to mark-up those controls ready for styling and behaviour. Basic mark-up, extra mark-up.
+**Chapter 2: Controls** introduces the various controls at your disposal how to mark-up those controls in their most basic form.
 
 **Chapter 3: Control Extras** provides information about how to enhance forms with just a little more effort.
 
-**Chapter 4: Server-side validation** explains the various pieces that you will need to provide *all* your users with assistance when things go wrong with input. From validation summaries to inline messaging.
+**Chapter 4: Designing forms** provides the information you need to design and build user friendly forms. The mark-up will need a little extra ready for CSS.
 
-**Chapter 5: Client-side validation** explains how to enhance form validation so that form validation is quicker and better for those users with the ability to provide form validation on the client.
+**Chapter 5: Validation design** recommends how you should handle form validation.
 
-**Chapter 6: Miscelanious idioms** explains all the things you should avoid and why as well as any other points of note.
+**Chapter 6: Server-side validation** explains the technical information required to assist users in fixing invalid input for those things that cannot be caught be the client for whatever reason.
+
+**Chapter 7: Client-side validation** explains how to enhance the experience when Javascript is ready and capable without getting too clever.
+
+**Chapter 8: Miscellaneous things** for things I don't know where to put just yet.
 
 ## Help and support
 

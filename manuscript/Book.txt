@@ -2,6 +2,8 @@
 01-The-Basics.md
 02-Controls.md
 03-Control-Extras.md
-04-Validation.md
-05-Implementation-By-Example.md
-06-Miscellaneous.md
+04-Designing-Forms.md
+05-Validation-Design.md
+06-Server-Side-Validation.md
+07-Client-Side-Validation.md
+08-Miscellaneous-Things.md

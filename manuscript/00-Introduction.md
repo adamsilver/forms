@@ -1,5 +1,7 @@
 # Introduction
 
+Interaction on the web comes in two forms: passive interaction (reading), active interaction (filling in information). Forms is the latter.
+
 People use forms to search for content, to log-in, and to purchase products etc. Due to this, forms are probably one of the most, if not *the* most important interactions on the web.
 
 Forms can be a lovely experience and they can be a horrible experience. Forms can be fun to build and they can be horrible to build. This book provides everything you need to provide a lovely experience and a lovely technical solution.
@@ -25,7 +27,3 @@ This book is for both for designers and developers, both back-end and front-end 
 ## Help and support
 
 If you would like to help, please contribute, and add an issue on Github.
-
-## Other
-
-* Passive interaction (reading), active interaction (filling in information)

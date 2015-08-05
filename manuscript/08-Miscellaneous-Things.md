@@ -39,3 +39,7 @@
 * Design - radios vs lists
 
 * Design - optional fields - scrap em, or asterix or?
+
+* autocomplete
+
+* HTML5 validation/novalidate

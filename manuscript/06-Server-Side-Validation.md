@@ -36,7 +36,7 @@ HTML:
 	<div class="standardControl error">
 		<label for="username">Field label <span class="errorIndicator">error</span></label>
 		<input id="username" name="username" value="">
-		<div class="errorMessage">Please enter a username.</div>
+		<div class="errorMessage"><p>Please enter a username.</p></div>
 	</div>
 
 View model segment:
@@ -65,7 +65,7 @@ HTML:
 	<div class="checkboxControl error">
 		<input type="checkbox" name="terms" id="terms">
 		<label for="terms">Terms <span class="errorIndicator">error</span></label>
-		<div class="errorMessage">Please confirm you have read the T&Cs.</div>
+		<div class="errorMessage"><p>Please confirm you have read the T&Cs.</p></div>
 	</div>
 
 View model segment:
@@ -101,7 +101,7 @@ HTML:
 				<input type="radio" name="delivery" id="collection">
 				<label for="collection">Collection</label>
 			</div>
-			<div class="errorMessage">Please confirm you have read the T&Cs.</div>
+			<div class="errorMessage"><p>Please confirm you have read the T&Cs.</p></div>
 		</fieldset>
 	</div>
 

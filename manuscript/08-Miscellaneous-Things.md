@@ -31,3 +31,7 @@
 * autocomplete
 
 * HTML5 validation/novalidate
+
+* input type image
+
+* e submit buttons different from submit

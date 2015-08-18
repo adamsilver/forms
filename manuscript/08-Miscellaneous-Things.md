@@ -1,5 +1,7 @@
 # Miscellaneous
 
+* Positive affirmation - tick on success onchange etc
+
 * Don't use click, instead of 'submit' event for primary action
 
 * More than one action...Split out into separate wizard like form, decide primary action.
@@ -25,8 +27,6 @@
 * Buttons, input type image
 
 * Allow people to select exactly one choice from two or more always visible and mutually exclusive options. Because radio buttons are mutually exclusive, they should have a default value selected (more on this later). It’s also a good idea to make sure both the radio button and its label can be selected to activate a radio button selection.
-
-
 
 * autocomplete
 

@@ -1,6 +1,12 @@
 # Introduction
 
-Interaction on the web comes in two forms: passive interaction i.e. reading, active interaction (filling in information). Forms allow for the latter and are obviously much more involved.
+Interaction on the web comes in two forms (excuse the pun):
+
+1. Passive interaction i.e. reading
+
+2. Active interaction (filling in information).
+
+Forms enable #2 and when you're asking a user to do something interactive, it's super important to get this right. There are many aspects of *right* - this book aims to answer them all.
 
 People use forms to search for content, to log-in, and to purchase products etc. Due to this, forms are probably one of the most, if not *the* most important interactions on the web.
 
@@ -8,7 +14,7 @@ Forms can be a lovely experience and they can be a horrible experience. Forms ca
 
 ## Who is this book for?
 
-This book is for both for designers and developers, both back-end and front-end of pretty much any ability.
+This book is for designers and developers of varying abilities. In other words &mdash; are you designing and/or building forms on the web? If *yes*, you will want to read this.
 
 ## Overview
 
@@ -18,9 +24,9 @@ This book is for both for designers and developers, both back-end and front-end 
 
 **Chapter 3: Control Extras** provides information about how to enhance forms with just a little more effort.
 
-**Chapter 4: Designing forms** provides the information you need to design and build user friendly forms. The mark-up will need a little extra ready for CSS.
+**Chapter 4: Basic Design Rules** provides the information you need to design and build user friendly forms.
 
-**Chapter 5: Validation design** recommends how you should handle form validation.
+**Chapter 5: Validation Design Rules** provides everything you need to design the behaviour and treatment for when forms go wrong.
 
 **Chapter 6: Server-side validation** explains the technical information required to assist users in fixing invalid input for those things that cannot be caught be the client for whatever reason.
 

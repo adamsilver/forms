@@ -1,5 +1,17 @@
 # The basics
 
+## Overview
+
+Forms are made up of only a few components. Whilst this introduction gets a little techy, this should still be more than useful for a designer in that these constraints and components should help drive the User Experience and Visual Design.
+
+Forms are made up of the following 5 components:
+
+1. Form
+2. Control
+3. Label
+4. Fieldset
+5. Legend
+
 ## Forms
 
 Forms are made up of several component elements. The first element being the `form` itself. Let's look at the basic construct:

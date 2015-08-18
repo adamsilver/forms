@@ -24,7 +24,7 @@ This book is for designers and developers of varying abilities. In other words &
 
 **Chapter 3: Control Extras** provides information about how to enhance forms with just a little more effort.
 
-**Chapter 4: Basic Design Rules** provides the information you need to design and build user friendly forms, including validation design and accessibility rules.
+**Chapter 4: Design Rules** provides the information you need to design and build user friendly forms, including validation design and accessibility rules.
 
 **Chapter 5: Server-side validation** explains the technical information required to assist users in fixing invalid input for those things that cannot be caught be the client for whatever reason.
 

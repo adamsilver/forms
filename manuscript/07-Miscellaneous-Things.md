@@ -35,3 +35,5 @@
 * input type image
 
 * e submit buttons different from submit
+
+* Responsive forms (CSS)

@@ -3,7 +3,6 @@
 02-Controls.md
 03-Control-Extras.md
 04-Basic-Design-Rules.md
-05-Validation-Design-Rules.md
-06-Server-Side-Validation.md
-07-Client-Side-Validation.md
-08-Miscellaneous-Things.md
+05-Server-Side-Validation.md
+06-Client-Side-Validation.md
+07-Miscellaneous-Things.md

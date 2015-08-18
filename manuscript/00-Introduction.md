@@ -24,15 +24,13 @@ This book is for designers and developers of varying abilities. In other words &
 
 **Chapter 3: Control Extras** provides information about how to enhance forms with just a little more effort.
 
-**Chapter 4: Basic Design Rules** provides the information you need to design and build user friendly forms.
+**Chapter 4: Basic Design Rules** provides the information you need to design and build user friendly forms, including validation design and accessibility rules.
 
-**Chapter 5: Validation Design Rules** provides everything you need to design the behaviour and treatment for when forms go wrong.
+**Chapter 5: Server-side validation** explains the technical information required to assist users in fixing invalid input for those things that cannot be caught be the client for whatever reason.
 
-**Chapter 6: Server-side validation** explains the technical information required to assist users in fixing invalid input for those things that cannot be caught be the client for whatever reason.
+**Chapter 6: Client-side validation** explains how to enhance the experience when Javascript is ready and capable without getting too clever.
 
-**Chapter 7: Client-side validation** explains how to enhance the experience when Javascript is ready and capable without getting too clever.
-
-**Chapter 8: Miscellaneous things** for things I don't know where to put just yet.
+**Chapter 7: Miscellaneous things** for things I don't know where to put just yet.
 
 ## Help and support
 

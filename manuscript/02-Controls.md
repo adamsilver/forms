@@ -2,41 +2,31 @@
 
 ## Overview
 
-This chapter documents the different types of form controls that you will typically use in any web application. There are subtle differences that are required in order to build these controls in a way that adheres to the visual design, accessibility rules and usability requirements.
+This chapter covers the different types of inputs you will want to useform controls that you will typically use in any web application. There are subtle differences worth noting, that enable the technical build adhering to visual design, accessibility standards and usability requirements.
 
-## Simple form control
+## Simple control e.g. a username
 
-This is the most common control.
+What I am referring to as a *simple* control, is one that is made up of a label and a text control (or select menu). Anything other than a button, a checkbox or a radio.
 
-HTML:
+In HTML this looks like:
 
 	<div class="standardControl">
-		<label for="username">Field label</label>
+		<label for="username">Username</label>
 		<input id="username" name="username">
 	</div>
 
-Note:
+## Checkbox control e.g. agreeing to terms and conditions
 
-1. This can be used with input types: `text`, `password`, `email`, `number`
-
-2. `textarea` controls
-
-3. `select` menu control
-
-## Single checkbox
-
-e.g. terms and conditions or save as billing
+This control pertains specifically to *one* checkbox. A group of checkboxes should not use this mark-up. The checkbox should appear first in the mark-up, with labels to the right, for accessibility and readability.
 
 	<div class="checkboxControl">
 		<input type="checkbox" name="terms" id="terms">
 		<label for="terms">Terms</label>
 	</div>
 
-## Group
+## Group control
 
-Useful for a group of checkboxes or radios.
-
-Note: fieldset and legend used for accessibility but might be useful visually. read more in accessibility guidelines.
+Useful for a group of checkboxes or radios. A group requires a fieldset and legend at least for accessibility. Notice that each radio (or checkbox) is wrapped in a `div` with a class attribute value `control` because just like the checkbox control above, the group must conform in the same way. That is inputs to the left, labels to the right.
 
 	<div class="groupControl">
 		<fieldset>
@@ -52,13 +42,15 @@ Note: fieldset and legend used for accessibility but might be useful visually. r
 		</fieldset>
 	</div>
 
-Note:
-
-1. The `id` attribute value, of the first control in the group, matches the `name` attribute value. This is essential for the client-side validation as we will see later.
+I> ## Important
+I>
+I> The `id` attribute value of the first control in the group, matches the `name` attribute value. This is essential for the client-side validation as we will see later.
 
 ## Action buttons
 
-This are allows you to put primary and secondary call to actions on the page, typically at the bottom of the form.
+You must provide a submit button for everyform. No exceptions. This is expected, intuitive and required to work in all browsers without issue. It's standard and good practice.
+
+This HTML allows you to place any primary (and secondary) call to actions. Typically this is placed at the end of the form.
 
 	<div class="actions">
 		<input type="submit" value="Checkout" name="checkout">

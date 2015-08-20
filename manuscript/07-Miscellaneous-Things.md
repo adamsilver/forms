@@ -37,3 +37,5 @@
 * e submit buttons different from submit
 
 * Responsive forms (CSS)
+
+* Inputting/selecting is very different from submission. Keep them separate.

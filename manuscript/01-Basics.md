@@ -1,4 +1,4 @@
-# The basics
+# Basics
 
 ## Overview
 
@@ -37,15 +37,11 @@ Otherwise, you should use *get* whereby no modification happens e.g.
 
 ## Controls
 
-Controls allow people to input content and send off to be processed by the web application in order to process an intended action. Without controls, forms would be useless.
+Controls allow people to input content and send it off to be processed by the web application in order to process an intended action.
 
 Not all controls allow user input. Some just trigger submission.
 
-There are 4 main elements that are considered to be controls:
-
-`input`, `select`, `textarea`, `button`.
-
-Controls will be explored in more detail in *Chapter 2: Controls*
+There are 4 main elements that are considered to be controls: `input`, `select`, `textarea`, `button`.
 
 ## Labels
 

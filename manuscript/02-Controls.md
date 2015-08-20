@@ -15,6 +15,10 @@ In HTML this looks like:
 		<input id="username" name="username">
 	</div>
 
+I> ## HTML note
+I>
+I> You don't necessarily need the wrapping div, but it is very useful for styling and becomes almost mandatory for the form validation to work as you will see later.
+
 ## Checkbox control e.g. agreeing to terms and conditions
 
 This control pertains specifically to *one* checkbox. A group of checkboxes should not use this mark-up. The checkbox should appear first in the mark-up, with labels to the right, for accessibility and readability.

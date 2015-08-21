@@ -30,7 +30,7 @@
 
 * autocomplete
 
-* HTML5 validation/novalidate
+* HTML5 validation/novalidate/formnovalidate
 
 * input type image
 

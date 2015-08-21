@@ -6,3 +6,4 @@
 05-Server-Side-Validation.md
 06-Client-Side-Validation.md
 07-Miscellaneous-Things.md
+08-Placeholders.md

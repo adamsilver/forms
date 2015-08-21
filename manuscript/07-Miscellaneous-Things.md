@@ -39,3 +39,5 @@
 * Responsive forms (CSS)
 
 * Inputting/selecting is very different from submission. Keep them separate.
+
+* Buttons shouldnt have cursor: pointer

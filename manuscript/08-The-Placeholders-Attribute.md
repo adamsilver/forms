@@ -1,4 +1,10 @@
-## Placeholders
+# The placeholder attribute
+
+## What is it?
+
+The placeholder attribute represents a short hint (a word or short phrase) intended to aid the user with data entry. A hint could be a sample value or a brief description of the expected format.
+
+## Placeholder UX problems
 
 Placeholder text within a form field makes it difficult for people to remember what information belongs in a field, and to check for and fix errors. It also poses additional burdens for users with visual and cognitive impairments.
 
@@ -35,11 +41,12 @@ Sometimes placeholders do not disappear when users move their input focus into t
 
 Sometimes the placeholder dims when the cursor is placed in a text field. Unfortunately, this interaction pattern is rare and users are not familiar with it: some still think they have to delete the text manually. It often takes a few failed attempts and lots of clicking to realize that they can start typing over the dimmed text.
 
-Placeholder Text in Addition to Labels
+## Placeholder Text in Addition to Labels
 
 Using placeholder text in combination with form labels is a step in the right direction. Labels outside the form fields make the essential information visible at all times, while placeholder text inside form fields is reserved for supplementary information. However, even when using labels, placing important hints or instructions within a form field can still cause the 7 issues mentioned above, albeit with less severity. If some of the fields require an extra description that is essential to completing the form correctly, it’s best to place that text outside the field so that it is always visible.
 
-### Placeholders and Accessibility
+## Placeholders and Accessibility
+
 One last issue to consider is that placeholder text is generally bad for accessibility. Certainly, accessibility software and modern browsers are improving, but they still have a long way to go. Three of the biggest problems for accessibility are as follows:
 
 The default light-grey color of placeholder text has poor color contrast against most backgrounds. For users with a visual impairment, poor color contrast makes it difficult to read the text. Because not all browsers allow placeholder text to be styled using CSS, this is a difficult issue to mitigate.
@@ -48,6 +55,6 @@ Users with cognitive or motor impairments are more heavily burdened. As we saw, 
 
 Not all screen readers read placeholder text aloud. Blind or visually impaired users may miss the hint completely if their software does not speak the placeholder content.
 
-### Conclusion
+## Conclusion
 
-Rather than risk having users stumble while filling out forms or waste valuable time figuring out how they work, the best solution is to have clear, visible labels that are placed outside empty form fields.
+Rather than risk having users stumble while filling out forms or waste valuable time figuring out how they work, the best solution is to have clear, visible labels that are placed outside empty form fields. If a hint is vital, then be sure to have the hint ever present.

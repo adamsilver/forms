@@ -1,9 +1,12 @@
 00-Introduction.md
-01-Basics.md
+01-The-Basic-Building-Blocks.md
 02-Controls.md
-03-Control-Extras.md
 04-Design-Rules.md
 05-Server-Side-Validation.md
 06-Client-Side-Validation.md
 07-Miscellaneous-Things.md
-08-Placeholders.md
+08-The-Placeholder-Attribute.md
+09-Grouping-Select-Options.md
+10-The-Search-Control.md
+11-The-Email-Control.md
+12-The-Number-Control.md

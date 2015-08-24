@@ -18,7 +18,7 @@ This book is for designers and developers of varying abilities. In other words &
 
 ## Overview
 
-**Chapter 1: The basics** provides information about the various components that make up a form including controls, labels, fieldsets and legends.
+<!-- **Chapter 1: Form components** provides information about the various pieces that make up a form .
 
 **Chapter 2: Controls** introduces the various controls at your disposal how to mark-up those controls in their most basic form.
 
@@ -30,7 +30,7 @@ This book is for designers and developers of varying abilities. In other words &
 
 **Chapter 6: Client-side validation** explains how to enhance the experience when Javascript is ready and capable without getting too clever.
 
-**Chapter 7: Miscellaneous things** for things I don't know where to put just yet.
+**Chapter 7: Miscellaneous things** for things I don't know where to put just yet. -->
 
 ## Help and support
 

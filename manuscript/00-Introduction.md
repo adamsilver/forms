@@ -18,19 +18,20 @@ This book is for designers and developers of varying abilities. In other words &
 
 ## Overview
 
-<!-- **Chapter 1: Form components** provides information about the various pieces that make up a form .
+<!--
 
-**Chapter 2: Controls** introduces the various controls at your disposal how to mark-up those controls in their most basic form.
+4. Should I use radio or select?
+5. Placeholder
+6. Validation
+6.1 Server-side
+6.2 Client-side
+7. Positive affirmation
+8. Select Onchange Problem
+9. Multiple Submit Problem
+10. .NET Checkbox Problem
+11. Misc
 
-**Chapter 3: Control Extras** provides information about how to enhance forms with just a little more effort.
-
-**Chapter 4: Design Rules** provides the information you need to design and build user friendly forms, including validation design and accessibility rules.
-
-**Chapter 5: Server-side validation** explains the technical information required to assist users in fixing invalid input for those things that cannot be caught be the client for whatever reason.
-
-**Chapter 6: Client-side validation** explains how to enhance the experience when Javascript is ready and capable without getting too clever.
-
-**Chapter 7: Miscellaneous things** for things I don't know where to put just yet. -->
+ -->
 
 ## Help and support
 

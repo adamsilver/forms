@@ -37,7 +37,7 @@ There are 4 main elements that are considered to be controls: `input`, `select`,
 
 ## 3. Labels
 
-Labels provide information about each control. For example if the control expects a pasword, then the label might say "Password".
+Labels provide information about each control. For example if the control expects a pasword, then the label might say "Password", though it's important take good care of labels as we will see in a later chapter.
 
 Visual users will see the label and visually impaired users may use a screen reader which will read out the label. Labels are only needed for controls that provide a vessel for input e.g. submit buttons are fine without.
 

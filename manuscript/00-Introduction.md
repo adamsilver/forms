@@ -16,23 +16,6 @@ Forms can be a lovely experience and they can be a horrible experience. Forms ca
 
 This book is for designers and developers of varying abilities. In other words &mdash; are you designing and/or building forms on the web? If *yes*, you will want to read this.
 
-## Overview
-
-<!--
-
-4. Should I use radio or select?
-5. Placeholder
-6. Validation
-6.1 Server-side
-6.2 Client-side
-7. Positive affirmation
-8. Select Onchange Problem
-9. Multiple Submit Problem
-10. .NET Checkbox Problem
-11. Misc
-
- -->
-
 ## Help and support
 
 If you would like to help, please contribute, and add an issue on Github.

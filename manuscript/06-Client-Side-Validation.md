@@ -48,3 +48,11 @@ A rule is a function that takes an argument of control and returns true or false
 	        return control.value.length <= params.maxLength;
 	    }
 	};
+
+## Keep things simple with HTML5
+
+## Removing HTML5 validation
+
+You don't want two types of client-side validation
+
+`novalidate/formnovalidate`

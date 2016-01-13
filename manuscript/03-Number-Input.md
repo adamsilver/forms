@@ -8,7 +8,6 @@ A field that allows you to type in information.
 
 HTML:
 
-	<label for="username">Username</label>
 	<input type="text" id="username" name="username">
 
 ## Password input
@@ -17,7 +16,6 @@ Exactly the same as the text input except that when the user types you see dots 
 
 HTML:
 
-	<label for="password">Password</label>
 	<input type="password" id="password" name="password">
 
 ## Textarea
@@ -26,7 +24,6 @@ The text area is like a big text input but with the ability to type text over ma
 
 HTML:
 
-	<label for="description">Description</label>
 	<textarea name="description" id="description"></textarea>
 
 ## Select menu
@@ -35,7 +32,6 @@ This control provides a drop down menu where you can select one option from a li
 
 HTML:
 
-	<label for="favouriteColor">Favourite colour</label>
 	<select id="favouriteColor" name="favouriteColor">
 		<option value="">Select colour</option>
 		<option value="red">Red</option>
@@ -51,7 +47,6 @@ I> Don't use this control - use checkbox instead shown later
 
 HTML:
 
-	<label for="favouriteColors">Favourite colours</label>
 	<select id="favouriteColors" name="favouriteColors" multiple>
 		<option value="">Select colour</option>
 		<option value="red">Red</option>
@@ -63,23 +58,20 @@ HTML:
 
 Dependening on the situation, grouping parts of a select menu's options is advisable. Take the following example. It is a list of cuisines. The most popular are grouped at the top for quick selection. Providing benefit to the user, by indicating how this large list is organised and how they can go about using it. Much better than a long list of ungrouped options.
 
-	<div class="standardControl">
-		<label for="cuisine">Cuisine</label>
-		<select id="cuisine" name="cuisine">
-		    <option value="">Show everything</option>
-		    <optgroup label="Most popular cuisines">
-	            <option value="indian">Indian</option>
-	            <option value="pizza">Pizza</option>
-	            <option value="chinese">Chinese</option>
-	            <option value="kebabs">Kebabs</option>
-		    </optgroup>
-		    <optgroup label="Other cuisines">
-	            <option value="bangladeshi">Bangladeshi</option>
-	            <option value="thai">Thai</option>
-	            <option value="english">English</option>
-		    </optgroup>
-		</select>
-	</div>
+	<select id="cuisine" name="cuisine">
+	    <option value="">Show everything</option>
+	    <optgroup label="Most popular cuisines">
+            <option value="indian">Indian</option>
+            <option value="pizza">Pizza</option>
+            <option value="chinese">Chinese</option>
+            <option value="kebabs">Kebabs</option>
+	    </optgroup>
+	    <optgroup label="Other cuisines">
+            <option value="bangladeshi">Bangladeshi</option>
+            <option value="thai">Thai</option>
+            <option value="english">English</option>
+	    </optgroup>
+	</select>
 
 ### Select onchange problem
 

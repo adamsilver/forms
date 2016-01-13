@@ -71,7 +71,7 @@ Misc.md
 
 	11. Though shall not hold the hands of users too early
 
-	12. Though shall not demand and preferably even ask for optional info
+	12. Though shall not demand and preferably even ask for optional info. 300 million button jared spool.
 
 	13. Though shall show error messages as a group at the top
 
@@ -84,6 +84,39 @@ Misc.md
 	17. Though shall consider affordance in terms of size of control
 
 	18. Though shall use AJAX for form submission with extreme caution
+
+	19. Though shall explain why the user should fill in the form
+
+	20. Though shall reveal help text at the right time in the right way. Not too much either.
+
+	21. Though shall use 1 field instead of 3 i.e. the date field
+
+	22. Though shall give the user a sense of positive affirmation. Checkout progress bar, success messages. Tick is only as good as the client side checks unless using ajax which is ill-advised.
+
+	23. Though shall display success messages until the user decides to hide it. No automatic dismisally of success messages.
+
+	24. Though shall make forms human and conversational. Don't use jargon.
+
+	25. Though shall only reveal a form when one is asked for. Progressive disclosure.
+
+	26. Though shall split up long forms depending on context.
+
+	27. Though shall use sensible defaults i.e. radios
+
+	28. Though shall avoid duplication
+
+	29. Though shall always design a form based on context, not on reuse. Kidly onboarding expecting vs has kids.
+
+	30. Though shall ask for information in a sensible human order.
+
+	31. Though shall make label text extra clear. Password vs "Current password" or "New password".
+
+	32. Though shall allow for as much mistakes or flexibility as possible. Spaces, uppercase etc.
+
+	33. Though shall not use unfriendly defaults. Anti pattern. "Uncheck the box if you don't wish to get email"
+
+	34. 75 in forms thing.
+
 
 5. Server-side validation implementation
 

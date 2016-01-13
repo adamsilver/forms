@@ -1,8 +1,132 @@
 00-Introduction.md
-01-The-Basic-Building-Blocks.md
-02-Controls.md
-04-Design-Rules.md
-05-Server-Side-Validation.md
-06-Client-Side-Validation.md
-08-The-Placeholder-Attribute.md
 Misc.md
+
+<!--
+
+1. Introducing this book
+
+2. The basic make-up of a form
+
+	1. Forms
+
+	2. Controls
+
+	3. Labels
+
+	4. Fieldset and legend
+
+	5. Buttons
+
+3. Control types
+
+	1. 	Text input
+
+	2. 	Password input
+
+	3. 	Email input
+
+	4. 	Number input
+
+	5. 	Search input
+
+	6. 	Date input
+
+	7. 	Checkbox input
+
+	8. 	Radio input
+
+	9.	File input
+
+	10. Select box
+
+	11.	Textarea
+
+	12.	Hidden input
+
+	13.	Submit buttons
+
+	14. A useful grouping. All the same but single checkbox and checkbox/radio group
+
+4. Designing affective forms
+
+	1. Though shall ensure all controls have labels
+
+	2. Though shall use placeholders as a bonus enhancement
+
+	3. Though shall use a fieldset and legend for a checkbox or radio group
+
+	4. Though shall only ask for information that you require
+
+	5. Though shall explain why we are asking for certain information
+
+	6. Though shall ensure forms have a single action and accompanying button
+
+	7. Though shall place labels above each control
+
+	8. Though shall avoid multiple select controls
+
+	9. Though shall use select boxes as a last resort
+
+	10. Though shall not misuse the select box
+
+	11. Though shall not hold the hands of users too early
+
+	12. Though shall not demand and preferably even ask for optional info
+
+	13. Though shall show error messages as a group at the top
+
+	14. Though shall show error messages in-context of the erroneous control
+
+	15. Though shall not make buttons act like links
+
+	16. Though shall not to try to customise the look and feel too much
+
+	17. Though shall consider affordance in terms of size of control
+
+	18. Though shall use AJAX for form submission with extreme caution
+
+5. Server-side validation implementation
+
+	1. Error message summary
+
+	2. Standard control
+
+	3. Single checkbox
+
+	4. Checkbox/radio group
+
+6. Client-side validation implementation
+
+	1. HTML5 or not?
+
+	1. Defining our own FormValidator constructor, rules etc
+
+9. Implementation tips
+
+	1. Use onsubmit no onclick
+
+	2. The .NET checkbox implementation is broken
+
+	3. How to mark-up these elements for design
+
+	4. How to write mark-up for controls
+
+	5. How to write markup for the error summary
+
+10. Misc other
+
+	1. Contextual submit click
+
+	2. Multiple select forms list of products (checkboxes for multi-select, buttons for individual, big buttons for multi add etc)
+
+	3. Native & mobile form behaviour
+
+	4. Multi page forms, wizards, dependent form controls
+
+	5. Success messages? Post/Redirect/Get
+
+	6. autocomplete http://security.stackexchange.com/questions/34067/should-web-sites-disable-form-autocomplete-on-all-forms
+
+	7. Responsive forms (CSS)
+
+-->

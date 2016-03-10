@@ -17,6 +17,8 @@ Misc.md
 
 	5. Buttons
 
+	6. How to submit a form?
+
 3. Control types
 
 	1. 	Text input
@@ -31,9 +33,9 @@ Misc.md
 
 	6. 	Date input
 
-	7. 	Checkbox input
+	7. 	Checkbox input - single and group
 
-	8. 	Radio input
+	8. 	Radio input including a group
 
 	9.	File input
 
@@ -44,8 +46,6 @@ Misc.md
 	12.	Hidden input
 
 	13.	Submit buttons
-
-	14. A useful grouping. All the same but single checkbox and checkbox/radio group
 
 4. Designing affective forms
 
@@ -115,8 +115,11 @@ Misc.md
 
 	33. Though shall not use unfriendly defaults. Anti pattern. "Uncheck the box if you don't wish to get email"
 
-	34. 75 in forms thing.
+	34. Though shall put form elements in a single column. Tabbing etc is better.
 
+	35. Though shall ensure captchas are user-friendly to everyone Christopherson
+
+	36. Though shall indicate max-length but not stop entry.
 
 5. Server-side validation implementation
 
@@ -132,11 +135,11 @@ Misc.md
 
 	1. HTML5 or not?
 
-	1. Defining our own FormValidator constructor, rules etc
+	2. HTML5 doesn't cut it - create your own.
 
 9. Implementation tips
 
-	1. Use onsubmit no onclick
+	1. Use onsubmit not onclick
 
 	2. The .NET checkbox implementation is broken
 

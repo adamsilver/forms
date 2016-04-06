@@ -120,6 +120,10 @@ Misc.md
 	35. Though shall ensure captchas are user-friendly to everyone Christopherson
 
 	36. Though shall indicate max-length but not stop entry.
+	
+	37. Thought shall not use asterisk for marking required fields, mark optional fields (Mr Joe Boring forms)
+	
+	38. Though shall not use sliders unless they really have to (maybe a colour picker) (Mr Joe again)
 
 5. Server-side validation implementation
 

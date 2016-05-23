@@ -51,7 +51,7 @@ Misc.md
 
 	1. Though shall ensure all controls have labels
 
-	2. Though shall use placeholders as a bonus enhancement
+	2. Though shall use placeholders as a bonus enhancement. Contrast Cathy Smashing Magazine.
 
 	3. Though shall use a fieldset and legend for a checkbox or radio group
 

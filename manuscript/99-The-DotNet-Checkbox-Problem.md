@@ -2,9 +2,6 @@
 
 1. on vs true, hidden input etc.
 
-<div class="checkboxControl rememberMe">
-    <input checked="checked" data-val="true" data-val-required="The RememberMe field is required." id="RememberMe" name="RememberMe" type="checkbox" value="true"><input name="RememberMe" type="hidden" value="false">
-    <label for="RememberMe">
-        Remember me
-    </label>
-</div>
+<input type="checkbox" id="RememberMe" name="RememberMe" value="true">
+<input type="hidden" name="RememberMe"  value="false">
+<label for="RememberMe">Remember me</label>

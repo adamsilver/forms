@@ -1,0 +1,85 @@
+2. The basic make-up of a form
+
+	1. Forms
+
+	2. Controls
+
+	3. Labels
+
+	4. Fieldset and legend
+
+	5. Buttons
+
+	6. How to submit a form?
+
+3. Control types
+
+	1. 	Text input
+
+	2. 	Password input
+
+	3. 	Email input
+
+	4. 	Number input
+
+	5. 	Search input
+
+	6. 	Date input
+
+	7. 	Checkbox input - single and group
+
+	8. 	Radio input including a group
+
+	9.	File input
+
+	10. Select box
+
+	11.	Textarea
+
+	12.	Hidden input
+
+	13.	Submit buttons
+
+5. Server-side validation implementation
+
+	1. Error message summary
+
+	2. Standard control
+
+	3. Single checkbox
+
+	4. Checkbox/radio group
+
+6. Client-side validation implementation
+
+	1. HTML5 or not?
+
+	2. HTML5 doesn't cut it - create your own.
+
+9. Implementation tips
+
+	1. Use onsubmit not onclick
+
+	2. The .NET checkbox implementation is broken
+
+	3. How to mark-up these elements for design
+
+	4. How to write mark-up for controls
+
+	5. How to write markup for the error summary
+
+10. Misc other
+
+	1. Contextual submit click
+
+	2. Multiple select forms list of products (checkboxes for multi-select, buttons for individual, big buttons for multi add etc)
+
+	3. Native & mobile form behaviour
+
+	4. Multi page forms, wizards, dependent form controls
+
+	5. Success messages? Post/Redirect/Get
+
+	6. autocomplete http://security.stackexchange.com/questions/34067/should-web-sites-disable-form-autocomplete-on-all-forms
+
+	7. Responsive forms (CSS)

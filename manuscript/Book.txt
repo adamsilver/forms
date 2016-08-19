@@ -1,172 +1,79 @@
-00-Introduction.md
-Misc.md
+1. Though shall ensure all controls have labels
+[done]
 
-<!--
+2. Though shall use placeholders as a bonus enhancement. Contrast Cathy Smashing Magazine.
+[done]
 
-1. Introducing this book
+3. Though shall use a fieldset and legend for a checkbox or radio group
 
-2. The basic make-up of a form
+4. Though shall only ask for information that you require
 
-	1. Forms
+5. Though shall explain why we are asking for certain information
 
-	2. Controls
+6. Though shall ensure forms have a single action and accompanying button
 
-	3. Labels
+7. Though shall place labels above each control
 
-	4. Fieldset and legend
+8. Though shall use select boxes as a last resort
 
-	5. Buttons
+9. Though shall use multiple select controls as a last resort
 
-	6. How to submit a form?
+10. Though shall not misuse the select box
 
-3. Control types
+11. Though shall not hold the hands of users too early
 
-	1. 	Text input
+12. Though shall not demand and preferably even ask for optional info. 300 million button jared spool.
 
-	2. 	Password input
+13. Though shall show error messages as a group at the top
 
-	3. 	Email input
+14. Though shall show error messages in-context of the erroneous control
 
-	4. 	Number input
+15. Though shall not make buttons act like links (and links should not submit forms)
 
-	5. 	Search input
+16. Though shall not to try to customise the look and feel too much
 
-	6. 	Date input
+17. Though shall consider affordance in terms of size of control i.e. postcode
 
-	7. 	Checkbox input - single and group
+18. Though shall use AJAX for form submission with extreme caution
 
-	8. 	Radio input including a group
+19. Though shall explain why the user should fill in the form
 
-	9.	File input
+20. Though shall reveal help text at the right time in the right way. Not too much either.
 
-	10. Select box
+21. Though shall use 1 field instead of 3 i.e. the date field
 
-	11.	Textarea
+22. Though shall give the user a sense of positive affirmation. Checkout progress bar, success messages. Tick is only as good as the client side checks unless using ajax which is ill-advised.
 
-	12.	Hidden input
+23. Though shall display success messages until the user decides to hide it. No automatic dismisally of success messages.
 
-	13.	Submit buttons
+24. Though shall make forms human and conversational. Don't use jargon.
 
-4. Designing affective forms
+25. Though shall only reveal a form when one is asked for. Progressive disclosure.
 
-	1. Though shall ensure all controls have labels
+26. Though shall split up long forms depending on context.
 
-	2. Though shall use placeholders as a bonus enhancement. Contrast Cathy Smashing Magazine.
+27. Though shall use sensible defaults i.e. radios
 
-	3. Though shall use a fieldset and legend for a checkbox or radio group
+28. Though shall avoid duplication like - confirm password. Just show password.
 
-	4. Though shall only ask for information that you require
+29. Though shall always design a form based on context, not on reuse. Kidly onboarding expecting vs has kids.
 
-	5. Though shall explain why we are asking for certain information
+30. Though shall ask for information in a sensible human order.
 
-	6. Though shall ensure forms have a single action and accompanying button
+31. Though shall make label text extra clear. Password vs "Current password" or "New password".
 
-	7. Though shall place labels above each control
+32. Though shall allow for as much mistakes or flexibility as possible. Spaces, uppercase etc.
 
-	8. Though shall avoid multiple select controls
+33. Though shall not use unfriendly defaults. Anti pattern. "Uncheck the box if you don't wish to get email"
 
-	9. Though shall use select boxes as a last resort
+34. Though shall put form elements in a single column. Tabbing etc is better.
 
-	10. Though shall not misuse the select box
+35. Though shall ensure captchas are user-friendly to everyone Christopherson
 
-	11. Though shall not hold the hands of users too early
+36. Though shall indicate max-length but not stop entry.
 
-	12. Though shall not demand and preferably even ask for optional info. 300 million button jared spool.
+37. Thought shall not use asterisk for marking required fields, mark optional fields (Mr Joe Boring forms)
 
-	13. Though shall show error messages as a group at the top
+38. Though shall not use sliders unless they really have to (maybe a colour picker) (Mr Joe again)
 
-	14. Though shall show error messages in-context of the erroneous control
 
-	15. Though shall not make buttons act like links
-
-	16. Though shall not to try to customise the look and feel too much
-
-	17. Though shall consider affordance in terms of size of control
-
-	18. Though shall use AJAX for form submission with extreme caution
-
-	19. Though shall explain why the user should fill in the form
-
-	20. Though shall reveal help text at the right time in the right way. Not too much either.
-
-	21. Though shall use 1 field instead of 3 i.e. the date field
-
-	22. Though shall give the user a sense of positive affirmation. Checkout progress bar, success messages. Tick is only as good as the client side checks unless using ajax which is ill-advised.
-
-	23. Though shall display success messages until the user decides to hide it. No automatic dismisally of success messages.
-
-	24. Though shall make forms human and conversational. Don't use jargon.
-
-	25. Though shall only reveal a form when one is asked for. Progressive disclosure.
-
-	26. Though shall split up long forms depending on context.
-
-	27. Though shall use sensible defaults i.e. radios
-
-	28. Though shall avoid duplication
-
-	29. Though shall always design a form based on context, not on reuse. Kidly onboarding expecting vs has kids.
-
-	30. Though shall ask for information in a sensible human order.
-
-	31. Though shall make label text extra clear. Password vs "Current password" or "New password".
-
-	32. Though shall allow for as much mistakes or flexibility as possible. Spaces, uppercase etc.
-
-	33. Though shall not use unfriendly defaults. Anti pattern. "Uncheck the box if you don't wish to get email"
-
-	34. Though shall put form elements in a single column. Tabbing etc is better.
-
-	35. Though shall ensure captchas are user-friendly to everyone Christopherson
-
-	36. Though shall indicate max-length but not stop entry.
-	
-	37. Thought shall not use asterisk for marking required fields, mark optional fields (Mr Joe Boring forms)
-	
-	38. Though shall not use sliders unless they really have to (maybe a colour picker) (Mr Joe again)
-
-5. Server-side validation implementation
-
-	1. Error message summary
-
-	2. Standard control
-
-	3. Single checkbox
-
-	4. Checkbox/radio group
-
-6. Client-side validation implementation
-
-	1. HTML5 or not?
-
-	2. HTML5 doesn't cut it - create your own.
-
-9. Implementation tips
-
-	1. Use onsubmit not onclick
-
-	2. The .NET checkbox implementation is broken
-
-	3. How to mark-up these elements for design
-
-	4. How to write mark-up for controls
-
-	5. How to write markup for the error summary
-
-10. Misc other
-
-	1. Contextual submit click
-
-	2. Multiple select forms list of products (checkboxes for multi-select, buttons for individual, big buttons for multi add etc)
-
-	3. Native & mobile form behaviour
-
-	4. Multi page forms, wizards, dependent form controls
-
-	5. Success messages? Post/Redirect/Get
-
-	6. autocomplete http://security.stackexchange.com/questions/34067/should-web-sites-disable-form-autocomplete-on-all-forms
-
-	7. Responsive forms (CSS)
-
--->

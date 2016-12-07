@@ -1,32 +1,34 @@
-1. Though shall ensure all controls have labels
+# Always use a label
 [done]
 
-2. Though shall use placeholders as a bonus enhancement. Contrast Cathy Smashing Magazine.
+# Avoid placeholders and what to do instead
 [done]
 
-3. Though shall use a fieldset and legend for a checkbox or radio group
+# Grouping fields with a fieldset
 
-4. Though shall only ask for information that you require
+# Asking for information.
+- Do you really need to ask for it - Jared 300 Button
+- How do you mark the field as required or optional
+- Optionally explain why you're asking for that information
 
-5. Though shall explain why we are asking for certain information
+# Have a single action and button per form
 
-6. Though shall ensure forms have a single action and accompanying button
+# How to position labels
+- To the right for checkboxes and radios
+- Above for all others
 
-7. Though shall place labels above each control
+# Select boxes
+- Use as last resort
+- Avoid multi-select
+- Don't misuse select box i.e. onchange
 
-8. Though shall use select boxes as a last resort
+# Provide feedback on submit (don't hold their hand too early)
 
-9. Though shall use multiple select controls as a last resort
-
-10. Though shall not misuse the select box
-
-11. Though shall not hold the hands of users too early
-
-12. Though shall not demand and preferably even ask for optional info. 300 million button jared spool.
-
-13. Though shall show error messages as a group at the top
-
-14. Though shall show error messages in-context of the erroneous control
+# Error handling
+- Don't provide it too early. On submit is good.
+- Show messages as a group at the top
+- Show message in context of the form too
+- How to visually make this clear
 
 15. Though shall not make buttons act like links (and links should not submit forms)
 

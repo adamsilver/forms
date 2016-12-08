@@ -2,6 +2,7 @@
 [done]
 
 # Avoid placeholders and what to do instead
+- when the user needs extra help, hint or instructions. Placeholder with the label etc.
 [done]
 
 # Grouping fields with a fieldset
@@ -38,10 +39,6 @@
 
 18. Though shall use AJAX for form submission with extreme caution
 
-19. Though shall explain why the user should fill in the form
-
-20. Though shall reveal help text at the right time in the right way. Not too much either.
-
 21. Though shall use 1 field instead of 3 i.e. the date field
 
 22. Though shall give the user a sense of positive affirmation. Checkout progress bar, success messages. Tick is only as good as the client side checks unless using ajax which is ill-advised.
@@ -54,7 +51,9 @@
 
 26. Though shall split up long forms depending on context.
 
-27. Though shall use sensible defaults i.e. radios
+27. Though shall use sensible defaults i.e. radios - free delivery checkout
+
+33. Though shall not use unfriendly defaults. Anti pattern. "Uncheck the box if you don't wish to get email"
 
 28. Though shall avoid duplication like - confirm password. Just show password.
 
@@ -66,16 +65,14 @@
 
 32. Though shall allow for as much mistakes or flexibility as possible. Spaces, uppercase etc.
 
-33. Though shall not use unfriendly defaults. Anti pattern. "Uncheck the box if you don't wish to get email"
-
 34. Though shall put form elements in a single column. Tabbing etc is better.
 
 35. Though shall ensure captchas are user-friendly to everyone Christopherson
 
 36. Though shall indicate max-length but not stop entry.
 
-37. Thought shall not use asterisk for marking required fields, mark optional fields (Mr Joe Boring forms)
+37. Thought shall not use asterisk for marking required fields, mark optional fields (Mr Joe)
 
-38. Though shall not use sliders unless they really have to (maybe a colour picker) (Mr Joe again)
+38. Though shall not use sliders unless they really have to (maybe a colour picker) (Mr Joe)
 
 

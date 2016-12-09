@@ -1,5 +1,7 @@
 # Field size
 
+http://baymard.com/blog/form-field-usability-matching-user-expectations
+
 The width of a field should provide a clue to the length of content it requires. The length of the content provides a clue to the type of content. Both of which help the user fill in a form field. 
 
 For example, a postcode is made up of about 8 characters including an optional space. This field should be smaller than other fields in an address form.

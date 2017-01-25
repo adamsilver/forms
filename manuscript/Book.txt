@@ -1,40 +1,36 @@
-# Always use a label
-[done]
+1. Though shall ensure all controls have labels
 
-# Avoid placeholders and what to do instead
-[done]
+2. Though shall use placeholders as a bonus enhancement
 
-# Grouping fields with a fieldset
+3. Though shall use a fieldset and legend for a checkbox or radio group
 
-# Asking for information.
-- Do you really need to ask for it - Jared 300 Button
-- How do you mark the field as required or optional
-- Optionally explain why you're asking for that information
+4. Though shall only ask for information that you require
 
-# Have a single action and button per form
+5. Though shall explain why we are asking for certain information
 
-# How to position labels
-- To the right for checkboxes and radios
-- Above for all others
+6. Though shall ensure forms have a single action and accompanying button
 
-# Select boxes
-- Use as last resort
-- Avoid multi-select
-- Don't misuse select box i.e. onchange
+7. Though shall place labels above each control
 
-# Provide feedback on submit (don't hold their hand too early)
+8. Though shall avoid multiple select controls
 
-# Error handling
-- Don't provide it too early. On submit is good.
-- Show messages as a group at the top
-- Show message in context of the form too
-- How to visually make this clear
+9. Though shall use select boxes as a last resort
 
-15. Though shall not make buttons act like links (and links should not submit forms)
+10. Though shall not misuse the select box
+
+11. Though shall not hold the hands of users too early
+
+12. Though shall not demand and preferably even ask for optional info. 300 million button jared spool.
+
+13. Though shall show error messages as a group at the top
+
+14. Though shall show error messages in-context of the erroneous control
+
+15. Though shall not make buttons act like links
 
 16. Though shall not to try to customise the look and feel too much
 
-17. Though shall consider affordance in terms of size of control i.e. postcode
+17. Though shall consider affordance in terms of size of control
 
 18. Though shall use AJAX for form submission with extreme caution
 
@@ -56,7 +52,7 @@
 
 27. Though shall use sensible defaults i.e. radios
 
-28. Though shall avoid duplication like - confirm password. Just show password.
+28. Though shall avoid duplication
 
 29. Though shall always design a form based on context, not on reuse. Kidly onboarding expecting vs has kids.
 
@@ -77,5 +73,3 @@
 37. Thought shall not use asterisk for marking required fields, mark optional fields (Mr Joe Boring forms)
 
 38. Though shall not use sliders unless they really have to (maybe a colour picker) (Mr Joe again)
-
-

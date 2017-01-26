@@ -1,75 +1,77 @@
-1. Though shall ensure all controls have labels
+- Though shall ensure all controls have labels
 
-2. Though shall use placeholders as a bonus enhancement
+- Though shall make label text extra clear. Password vs "Current password" or "New password".
 
-3. Though shall use a fieldset and legend for a checkbox or radio group
+- Though shall place labels above each control
 
-4. Though shall only ask for information that you require
+- Labels: though shall make forms human and conversational. Don't use jargon.
 
-5. Though shall explain why we are asking for certain information
+- Though shall ask for information in a sensible human order.
 
-6. Though shall ensure forms have a single action and accompanying button
+- Though shall put form elements in a single column. Tabbing etc is better.
 
-7. Though shall place labels above each control
+- Placeholders - avoid - help or hint text should be outside field.
 
-8. Though shall avoid multiple select controls
+- Only ask for absolutely necessary stuff. Ask for it as late as possible. PRogressive. If there are optional fields, mark those; not the required fields. 300 million button jared spool. Mr Joe, Boring Forms.
 
-9. Though shall use select boxes as a last resort
+- Explain why users should give us information or sign up. Mobile for text message updates on their delivery. Sign up for x and y and z. If no x and y - why asking for it? Jared Spool video about how got loads of sign ups but no sales. We want the right investment. For example growth labs by whats his chops makes u go thru an entire email funnel before signing up for his course. No link to get there without it. Investment => proper sign up and longevity. Something to consider.
 
-10. Though shall not misuse the select box
+- Buttons are not links.
 
-11. Though shall not hold the hands of users too early
+- Input size.
 
-12. Though shall not demand and preferably even ask for optional info. 300 million button jared spool.
+## Validation
 
-13. Though shall show error messages as a group at the top
+- Enter should submit the form.
 
-14. Though shall show error messages in-context of the erroneous control
+- No live validate. Don't hand hold too early. (keeping forms small means less room for error and more focus etc).
 
-15. Though shall not make buttons act like links
+- Summary errors: show error messages as a group at the top.
 
-16. Though shall not to try to customise the look and feel too much
+- Inline errors: show in-context of the erroneous control.
 
-17. Though shall consider affordance in terms of size of control
+- Forgive mistakes: trim, spaces, uppercase etc. date of birth, postcode fields.
 
-18. Though shall use AJAX for form submission with extreme caution
+- Success messages: Once shown, don't hide automatically. Let theuser dismiss if at all. Probably want to take them somewhere rather than show a success above the form. Back to account landing, on to the next step. back to home page as last resort etc.
 
-19. Though shall explain why the user should fill in the form
+## These require specific examples
 
-20. Though shall reveal help text at the right time in the right way. Not too much either.
+- Fieldset and legend for a checkbox or radio group
 
-21. Though shall use 1 field instead of 3 i.e. the date field
+- Though shall use 1 field instead of 3 i.e. the date field
 
-22. Though shall give the user a sense of positive affirmation. Checkout progress bar, success messages. Tick is only as good as the client side checks unless using ajax which is ill-advised.
+- Though shall only reveal a form when one is asked for. Progressive disclosure.
 
-23. Though shall display success messages until the user decides to hide it. No automatic dismisally of success messages.
+- Though shall avoid duplication i.e. for password fields
 
-24. Though shall make forms human and conversational. Don't use jargon.
+- Though shall indicate max-length but not stop entry.
 
-25. Though shall only reveal a form when one is asked for. Progressive disclosure.
+- Though shall use smart defaults for radios etc.
 
-26. Though shall split up long forms depending on context.
+- Though shall split up long forms depending on context.
 
-27. Though shall use sensible defaults i.e. radios
+- Though shall always design a form based on context, not on reuse. Kidly onboarding expecting vs has kids.
 
-28. Though shall avoid duplication
+- Though shall not use unfriendly defaults. Anti pattern. "Uncheck the box if you don't wish to get email"
 
-29. Though shall always design a form based on context, not on reuse. Kidly onboarding expecting vs has kids.
+- Though shall ensure captchas are user-friendly to everyone Christopherson
 
-30. Though shall ask for information in a sensible human order.
+- Though shall not to try to customise the look and feel too much
 
-31. Though shall make label text extra clear. Password vs "Current password" or "New password".
+- Though shall use AJAX for form submission with extreme caution
 
-32. Though shall allow for as much mistakes or flexibility as possible. Spaces, uppercase etc.
+- Though shall give the user a sense of positive affirmation. Checkout progress bar, success messages. Tick is only as good as the client side checks unless using ajax which is ill-advised.
 
-33. Though shall not use unfriendly defaults. Anti pattern. "Uncheck the box if you don't wish to get email"
+## These are rare and low priority
 
-34. Though shall put form elements in a single column. Tabbing etc is better.
+- Though shall not use sliders unless they really have to (maybe a colour picker) (Mr Joe again)
 
-35. Though shall ensure captchas are user-friendly to everyone Christopherson
+- Though shall avoid multiple select controls
 
-36. Though shall indicate max-length but not stop entry.
+- Though shall use select boxes as a last resort
 
-37. Thought shall not use asterisk for marking required fields, mark optional fields (Mr Joe Boring forms)
+- Though shall not misuse the select box
 
-38. Though shall not use sliders unless they really have to (maybe a colour picker) (Mr Joe again)
+## Chapter
+
+- Search form without a button: no

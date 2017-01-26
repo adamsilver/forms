@@ -1,1 +1,0 @@
-# Don't use click, instead of 'submit' event for primary action

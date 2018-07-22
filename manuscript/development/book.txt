@@ -1,45 +1,7 @@
 # Introduction
 
-1. Passive interaction i.e. reading
-
-2. Active interaction (filling in information).
-
-## Control types
-
-	1. 	Text input
-
-	2. 	Password input
-
-	3. 	Email input
-
-	4. 	Number input
-
-	5. 	Search input
-
-	6. 	Date input
-
-	7. 	Checkbox input - single and group
-
-	8. 	Radio input including a group
-
-	9.	File input
-
-	10. Select box
-
-	11.	Textarea
-
-	12.	Hidden input
-
-	13.	Submit buttons
-
-## Other notes
-
-	1. The .NET checkbox implementation is broken
-
-	2. Multiple select forms list of products (checkboxes for multi-select, buttons for individual, big buttons for multi add etc)
-
-	3. Contextual submit click
-
-	4. Success messages? Post/Redirect/Get
-
-	5. autocomplete http://security.stackexchange.com/questions/34067/should-web-sites-disable-form-autocomplete-on-all-forms
+- Hidden inputs
+- Multiple select forms list of products (checkboxes for multi-select, buttons for individual, big buttons for multi add etc)
+- Contextual submit click
+- Success messages and Post/Redirect/Get
+- autocomplete http://security.stackexchange.com/questions/34067/should-web-sites-disable-form-autocomplete-on-all-forms

@@ -1,10 +1,8 @@
 # Client-side validation
 
-## Overview
-
 Client-side validation is almost identical to the server-side except for the following:
 
-1. When there are errors, the user is scrolled up to the error summary.
+1. When there are errors, the error summary is focused.
 3. Clicking on an error message in the summary, will focus the control - some browers will do this without Javascript.
 4. Not all validation messages will/can be handled on the client.
 
@@ -48,11 +46,3 @@ A rule is a function that takes an argument of control and returns true or false
 	        return control.value.length <= params.maxLength;
 	    }
 	};
-
-## Keep things simple with HTML5
-
-## Removing HTML5 validation
-
-You don't want two types of client-side validation
-
-`novalidate/formnovalidate`

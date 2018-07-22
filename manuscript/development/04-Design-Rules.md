@@ -1,16 +1,12 @@
 # Basic design principles
 
-1. Text controls should have labels. And these labels should be above the controls. The eye should move downwards only (not left to right).
-
-2. Don't try and customise the visual design of form controls, let other parts of the site cater to branding requirements. You're asking for trouble if you try to do this cross-browser.
-
 ## Validation rules
 
 1. Forms should be validated when the user submits. For one, for server-side validation, this is the only time it can be done. For two, you don't want to validate too early. Let the user decide when they are done and help them out when they need it. Attempting silly things on change or on blur is asking for trouble both technically and UX wise.
 
 Form validation should only be triggered when the form is submitted. Obviously this note does not pertain to server-side validation as it can *only* be triggered in this way	.
 
-It is advised that you don't attempt to validate controls when the user is typing or moving between controls i.e. `blur`.
+Don't attempt to validate controls when the user is typing or moving between controls i.e. `blur`.
 
 This is because this causes a poor experience in terms of over-the-top hand holding, early interuption and visual glitches such as jumping when information is injected into the page via Javascript.
 

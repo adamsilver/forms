@@ -1,6 +1,5 @@
 # Group control
 
-Useful for a group of checkboxes or radios. A group requires a fieldset and legend at least for accessibility. Notice that each radio (or checkbox) is wrapped in a `div` with a class attribute value `control` because just like the checkbox control above, the group must conform in the same way. That is inputs to the left, labels to the right.
 
 	<div class="groupControl">
 		<fieldset>
@@ -16,6 +15,4 @@ Useful for a group of checkboxes or radios. A group requires a fieldset and lege
 		</fieldset>
 	</div>
 
-I> ## Important
-I>
-I> The `id` attribute value of the first control in the group, matches the `name` attribute value. This is essential for the client-side validation as we will see later.
+The `id` attribute value of the first control in the group, matches the `name` attribute value. This is essential for the client-side and server-side validation because the server only knows about the name (not the id). And because the error summary links to to the first input in the group.
